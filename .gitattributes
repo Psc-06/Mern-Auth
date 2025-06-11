@@ -1,0 +1,10 @@
+# Force all text files to use LF
+* text=auto eol=lf
+
+# Ensure binary files are not modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

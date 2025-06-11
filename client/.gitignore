@@ -1,40 +1,38 @@
 # Logs
- logs
- *.log
- npm-debug.log*
- yarn-debug.log*
- yarn-error.log*
- pnpm-debug.log*
- lerna-debug.log*
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
--/node_modules
--dist
--dist-ssr
-+node_modules/       # Always explicitly ignore the directory
-+
-+# Build output directories
-+dist/               # For client-side build output (e.g., Vite build)
-+dist-ssr/           # For SSR build output
-+build/              # Another common build output directory (e.g., Create React App)
-+
-+# Environment variables
- *.local
-+*.env               # General .env files
-+.env.local
-+.env.*.local        # Covers .env.development.local, .env.production.local, etc.
-+
-+# Vite-specific ignores (for client-side if using Vite)
-+.vite/
+# Dependencies
+node_modules/       # Always explicitly ignore the directory
 
- # Editor directories and files
- .vscode/*
- !.vscode/extensions.json
- .idea
- .DS_Store
- Thumbs.db           # Windows specific hidden file
-+desktop.ini         # Windows specific hidden file
- *.suo
- *.ntvs*
- *.njsproj
- *.sln
- *.sw?
+# Build output directories
+dist/               # For client-side build output (e.g., Vite build)
+dist-ssr/           # For SSR build output
+build/              # Another common build output directory (e.g., Create React App)
+
+# Environment variables
+*.local
+*.env               # General .env files
+.env.local
+.env.*.local        # Covers .env.development.local, .env.production.local, etc.
+
+# Vite-specific ignores (for client-side if using Vite)
+.vite/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db           # Windows specific hidden file
+desktop.ini         # Windows specific hidden file
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
